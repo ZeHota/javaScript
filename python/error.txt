@@ -1,0 +1,8 @@
+Executing script: E:\Quest\python\fizzbuzz.py
+Script arguments: -3000,7,6,100
+Output:
+Traceback (most recent call last):
+  File "E:\Quest\python\fizzbuzz.py", line 7, in <module>
+    if number % 3 == 0 and item % 5  == 0:
+TypeError: not all arguments converted during string formatting
+
