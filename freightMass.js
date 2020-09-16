@@ -1,17 +1,10 @@
 function calculateMass(freightItems) {
     // This is a placeholder for the total length in characters of all strings
     // in the freightItems array
-    let totalMass = 0;
-    function theFunc(item, totalMass) {
-        return item.length + totalMass
-    }
-    freightItems.reduce(theFunc)
-    /*
-    Replace this comment with your code.
-    Use the array reduce() function to replace the value of totalMass.
-    Note that it is possible to use forEach or other loop types to do this, but
-    using "reduce" is probably the most elegant solution!
-    */
+    let a = freightItems.join('')
+    let totalMass = a.length
+    ;
+    
   
     return totalMass;
   }
